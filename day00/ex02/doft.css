@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(70, 70, 70);
+    margin: 20px auto;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1420px;
+}
+
+header {
+    height: 137px;
+    width: 1420px;
+    position: relative;
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.day42 {
+    height: 110px;
+    margin: 10px 0 0 10px;
+}
+
+.search {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+header .refresh {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    top: 10px;
+}
+
+header .close {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.left{
+    width: 108px;
+    height: 438px;
+    float: left;
+    margin: 20px 0 0 20px;
+    padding: 15px 0 0 32px;
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.img-left {
+    width: 80px;
+    height: 80px;
+}
+
+.rouge {
+    border: 6px solid red;
+    margin: 0px 0 1px 0px;
+    border-radius: 5px;
+}
+
+.img-milieu {
+    margin: 20px 0px 20px 30px;
+    padding: 15px 15px 15px 15px;
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.right {
+    width: 105px;
+    height: 410px;
+    float: right;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 35px;
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    bottom: 250px;
+}
+
+.img-right {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.img-brick {
+    content: '';
+    background-image: url('resources/brick.jpg');
+    width: 120px;
+    height: 70px;
+    margin:-5px 0 0 -25px;
+}
+
+
+.form {
+    background-color: #7ef680;
+    width: 500px;
+    height: 150px;
+    position: relative;
+    padding: 10px;
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    top: -104px;
+    left: -223px;
+}
+
+.input {
+    width: 400px;
+}
+
+.milieu {
+    width: 500px;
+    float: left;
+}

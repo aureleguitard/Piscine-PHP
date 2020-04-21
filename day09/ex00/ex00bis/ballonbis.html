@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Balloon</title>
+</head>
+<body>
+
+    <div id="balloon" style="position: absolute;
+    background: red;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 420px;
+    max-height: 420px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;">
+    </div>
+        <script>
+            $("#balloon").click(big);
+            $("#balloon").mouseleave(smaller);
+            function big(){
+                var theballon = $("#balloon");
+                if (theballon.style.background == '' || theballon.style.background == 'red') {
+                    theballon.style.background = 'green';
+                }
+                else if (theballon.style.background == 'green') {
+                    theballon.style.background = 'blue';
+                }
+                else {
+                    theballon.style.background = 'red';
+                }
+                if (theballon.style.width < 420+'px' && theballon.style.height < 420+'px') {
+                    theballon.style.width = theballon.offsetWidth+10+'px';
+                    theballon.style.height = theballon.offsetHeight+10+'px';
+                }
+                else if (theballon.style.width >= 420+'px' && theballon.style.height >= 420+'px') {
+                    theballon.style.width = 200+'px';
+                    theballon.style.height = 200+'px';
+                }
+            }
+            function smaller(){
+                var daballon = $("#balloon"); 
+                if (daballon.style.background == '' || daballon.style.background == 'red') {
+                    daballon.style.background = 'blue';
+                }
+                else if (daballon.style.background == 'blue') {
+                    daballon.style.background = 'green';
+                }
+                else {
+                    daballon.style.background = 'red';
+                }
+                if (daballon.style.width > 200+'px' || debellon.style.width > 200+'px'){
+                    daballon.style.width = daballon.offsetWidth-5+'px';
+                    daballon.style.height = daballon.offsetHeight-5+'px';
+                }
+            }
+            </script>
+            <!-- <script src="jquery-3.4.1.min.js"></script> -->
+</body>
+</html>

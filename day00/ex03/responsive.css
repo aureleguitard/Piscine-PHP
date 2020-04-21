@@ -1,0 +1,57 @@
+body {
+    background-color: thistle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    width:100%;
+}
+
+td {
+    width:5.55555%;
+}
+
+td.hydrogene {
+    background-color: rgb(246, 246, 147);
+}
+td.alkali-metals {
+    background-color: rgb(255, 78, 252);
+}
+td.alkali-earth-metals {
+    background-color: rgb(250, 190, 79);
+}
+td.transition-metals {
+    background-color: rgba(246, 225, 29, 0.897);
+}
+td.other-metals {
+    background-color: rgb(129, 83, 255);
+}
+.semiconductors{
+    background-color: rgb(118, 252, 118);
+}
+td.other-nonmetals {
+    background-color: rgb(181, 115, 247);
+}
+td.halogens {
+    background-color: rgb(250, 100, 132);
+}
+td.noble-gases {
+    background-color: grey;
+}
+td.autre {
+    background-color: rgb(79, 228, 136);
+}
+td.autre1 {
+    background-color: rgb(89, 223, 200);
+}
+h2{
+    text-align:center;
+    margin:5px 0;
+    font-size:1.5vw;
+}
+p.masse {
+    text-align: right;
+}
+.numero {
+    float: left;
+}

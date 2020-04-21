@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mendeleïev Table</title>
+    <style>
+        body {
+            background-color: thistle;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        td.hydrogene {
+            background-color: rgb(246, 246, 147);
+        }
+        td.alkali-metals {
+            background-color: rgb(255, 78, 252);
+        }
+        td.alkali-earth-metals {
+            background-color: rgb(250, 190, 79);
+        }
+        td.transition-metals {
+            background-color: rgba(246, 225, 29, 0.897);
+        }
+        td.other-metals {
+            background-color: rgb(129, 83, 255);
+        }
+        .semiconductors{
+            background-color: rgb(118, 252, 118);
+        }
+        td.other-nonmetals {
+            background-color: rgb(181, 115, 247);
+        }
+        td.halogens {
+            background-color: rgb(250, 100, 132);
+        }
+        td.noble-gases {
+            background-color: grey;
+        }
+        td.autre {
+            background-color: rgb(79, 228, 136);
+        }
+        td.autre1 {
+            background-color: rgb(89, 223, 200);
+        }
+        h2 {
+            text-align: center;
+        }
+        p.masse {
+            text-align: right;
+        }
+        td {
+            width: 100px;
+            border: solid, 2px;
+        }
+        .numero {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">PERIODIC TABLE OF THE ELEMENTS</h1>
+    <p style="text-align: center;"><img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/mendeleev-periodic-table-of-the-vchal.jpg" alt=""></p>
+    <table contenteditable="true">
+        <tr>
+            <td class="hydrogene"><p class="masse">1.008</p><h2>H</h2><p class="numero">1</p></td>
+            <td colspan="16"></td>
+            <td class="noble-gases"><p class="masse">4.003</p><h2>He</h2><p class="numero">2</p></td>
+        </tr>
+        <tr>
+            <td class="alkali-metals"><p class="masse">6.941</p><h2>Li</h2><p class="numero">3</p></td>
+            <td class="alkali-earth-metals"><p class="masse">9.0122</p><h2>Be</h2><p class="numero">4</p></td>
+            <td colspan="10"></td>
+            <td class="semiconductors"><p class="masse">10.811</p><h2>B</h2><p class="numero">5</p></td>
+            <td class="other-nonmetals"><p class="masse">12.011</p><h2>C</h2><p class="numero">6</p></td>
+            <td class="other-nonmetals"><p class="masse">14.007</p><h2>N</h2><p class="numero">7</p></td>
+            <td class="other-nonmetals"><p class="masse">15.999</p><h2>O</h2><p class="numero">8</p></td>
+            <td class="halogens"><p class="masse">20.179</p><h2>F</h2><p class="numero">9</p></td>
+            <td class="noble-gases"><p class="masse">1.008</p><h2>Ne</h2><p class="numero">10</p></td>
+        </tr>
+        <tr>
+            <td class="alkali-metals"><p class="masse">22.99</p><h2>Na</h2><p class="numero">11</p></td>
+            <td class="alkali-earth-metals"><p class="masse">24.305</p><h2>Mg</h2><p class="numero">12</p></td>
+            <td colspan="10"></td>
+            <td class="other-metals"><p class="masse">26.982</p><h2>Al</h2><p class="numero">13</p></td>
+            <td class="semiconductors"><p class="masse">28.086</p><h2>Si</h2><p class="numero">14</p></td>
+            <td class="other-nonmetals"><p class="masse">30.974</p><h2>P</h2><p class="numero">15</p></td>
+            <td class="other-nonmetals"><p class="masse">32.065</p><h2>S</h2><p class="numero">16</p></td>
+            <td class="halogens"><p class="masse">35.453</p><h2>Cl</h2><p class="numero">17</p></td>
+            <td class="noble-gases"><p class="masse">39.948</p><h2>Ar</h2><p class="numero">18</p></td>
+        </tr>
+        <tr>
+            <td class="alkali-metals"><p class="masse">39.098</p><h2>K</h2><p class="numero">19</p></td>
+            <td class="alkali-earth-metals"><p class="masse">40.078</p><h2>Ca</h2><p class="numero">20</p></td>
+            <td class="transition-metals"><p class="masse">44.956</p><h2>Sc</h2><p class="numero">21</p></td>
+            <td class="transition-metals"><p class="masse">47.867</p><h2>Ti</h2><p class="numero">22</p></td>
+            <td class="transition-metals"><p class="masse">50.942</p><h2>V</h2><p class="numero">23</p></td>
+            <td class="transition-metals"><p class="masse">51.996</p><h2>Cr</h2><p class="numero">24</p></td>
+            <td class="transition-metals"><p class="masse">54.938</p><h2>Mn</h2><p class="numero">25</p></td>
+            <td class="transition-metals"><p class="masse">55.845</p><h2>Fe</h2><p class="numero">26</p></td>
+            <td class="transition-metals"><p class="masse">58.933</p><h2>Co</h2><p class="numero">27</p></td>
+            <td class="transition-metals"><p class="masse">58.993</p><h2>Ni</h2><p class="numero">28</p></td>
+            <td class="transition-metals"><p class="masse">63.546</p><h2>Cu</h2><p class="numero">29</p></td>
+            <td class="transition-metals"><p class="masse">65.39</p><h2>Zn</h2><p class="numero">30</p></td>
+            <td class="other-metals"><p class="masse">69.723</p><h2>Ga</h2><p class="numero">31</p></td>
+            <td class="semiconductors"><p class="masse">72.64</p><h2>Ge</h2><p class="numero">32</p></td>
+            <td class="semiconductors"><p class="masse">74.922</p><h2>As</h2><p class="numero">33</p></td>
+            <td class="other-nonmetals"><p class="masse">78.96</p><h2>Se</h2><p class="numero">34</p></td>
+            <td class="halogens"><p class="masse">79.904</p><h2>Br</h2><p class="numero">35</p></td>
+            <td class="noble-gases"><p class="masse">83.8</p><h2>Kr</h2><p class="numero">36</p></td>
+        </tr>
+        <tr>
+            <td class="alkali-metals"><p class="masse">85.468</p><h2>Rb</h2><p class="numero">37</p></td>
+            <td class="alkali-earth-metals"><p class="masse">87.62</p><h2>Sr</h2><p class="numero">38</p></td>
+            <td class="transition-metals"><p class="masse">88.906</p><h2>Y</h2><p class="numero">39</p></td>
+            <td class="transition-metals"><p class="masse">91.224</p><h2>Zr</h2><p class="numero">40</p></td>
+            <td class="transition-metals"><p class="masse">92.906</p><h2>Nb</h2><p class="numero">41</p></td>
+            <td class="transition-metals"><p class="masse">95.94</p><h2>Mo</h2><p class="numero">42</p></td>
+            <td class="transition-metals"><p class="masse">98</p><h2>Tc</h2><p class="numero">43</p></td>
+            <td class="transition-metals"><p class="masse">101.07</p><h2>Ru</h2><p class="numero">44</p></td>
+            <td class="transition-metals"><p class="masse">102.91</p><h2>Rh</h2><p class="numero">45</p></td>
+            <td class="transition-metals"><p class="masse">106.42</p><h2>Pd</h2><p class="numero">46</p></td>
+            <td class="transition-metals"><p class="masse">107.87</p><h2>Ag</h2><p class="numero">47</p></td>
+            <td class="transition-metals"><p class="masse">112.41</p><h2>Cd</h2><p class="numero">48</p></td>
+            <td class="other-metals"><p class="masse">114.82</p><h2>In</h2><p class="numero">49</p></td>
+            <td class="other-metals"><p class="masse">118.71</p><h2>Sn</h2><p class="numero">50</p></td>
+            <td class="semiconductors"><p class="masse">121.76</p><h2>Sb</h2><p class="numero">51</p></td>
+            <td class="semiconductors"><p class="masse">127.6</p><h2>Te</h2><p class="numero">52</p></td>
+            <td class="halogens"><p class="masse">126.9</p><h2>I</h2><p class="numero">53</p></td>
+            <td class="noble-gases"><p class="masse">131.29</p><h2>Xe</h2><p class="numero">54</p></td>
+        </tr>
+        <tr>
+            <td class="alkali-metals"><p class="masse">132.91</p><h2>Cs</h2><p class="numero">55</p></td>
+            <td class="alkali-earth-metals"><p class="masse">137.33</p><h2>Ba</h2><p class="numero">56</p></td>
+            <td colspan="1"></td>
+            <td class="transition-metals"><p class="masse">178.49</p><h2>Hf</h2><p class="numero">72</p></td>
+            <td class="transition-metals"><p class="masse">180.49</p><h2>Ta</h2><p class="numero">73</p></td>
+            <td class="transition-metals"><p class="masse">183.84</p><h2>W</h2><p class="numero">74</p></td>
+            <td class="transition-metals"><p class="masse">186.21</p><h2>Re</h2><p class="numero">75</p></td>
+            <td class="transition-metals"><p class="masse">190.23</p><h2>Os</h2><p class="numero">76</p></td>
+            <td class="transition-metals"><p class="masse">192.22</p><h2>Ir</h2><p class="numero">77</p></td>
+            <td class="transition-metals"><p class="masse">195.08</p><h2>Pt</h2><p class="numero">78</p></td>
+            <td class="transition-metals"><p class="masse">196.97</p><h2>Au</h2><p class="numero">79</p></td>
+            <td class="transition-metals"><p class="masse">200.59</p><h2>Hg</h2><p class="numero">80</p></td>
+            <td class="other-metals"><p class="masse">204.38</p><h2>Tl</h2><p class="numero">81</p></td>
+            <td class="other-metals"><p class="masse">207.2</p><h2>Pb</h2><p class="numero">82</p></td>
+            <td class="other-metals"><p class="masse">208.98</p><h2>Bi</h2><p class="numero">83</p></td>
+            <td class="semiconductors"><p class="masse">(209)</p><h2>Po</h2><p class="numero">84</p></td>
+            <td class="halogens"><p class="masse">(210)</p><h2>At</h2><p class="numero">85</p></td>
+            <td class="noble-gases"><p class="masse">(222)</p><h2>Rn</h2><p class="numero">86</p></td>
+        </tr>
+        <tr>
+            <td class="alkali-metals"><p class="masse">(223)</p><h2>Fr</h2><p class="numero">87</p></td>
+            <td class="alkali-earth-metals"><p class="masse">(226)</p><h2>Ra</h2><p class="numero">88</p></td>
+            <td colspan="1"></td>
+            <td class="transition-metals"><p class="masse">(261)</p><h2>Rf</h2><p class="numero">104</p></td>
+            <td class="transition-metals"><p class="masse">(262)</p><h2>Db</h2><p class="numero">105</p></td>
+            <td class="transition-metals"><p class="masse">(263)</p><h2>Sg</h2><p class="numero">106</p></td>
+            <td class="transition-metals"><p class="masse">(264)</p><h2>Bh</h2><p class="numero">107</p></td>
+            <td class="transition-metals"><p class="masse">(277)</p><h2>Hs</h2><p class="numero">108</p></td>
+            <td class="transition-metals"><p class="masse">(268)</p><h2>Mt</h2><p class="numero">109</p></td>
+            <td class="transition-metals"><p class="masse">(281)</p><h2>Ds</h2><p class="numero">110</p></td>
+            <td class="transition-metals"><p class="masse">(272)</p><h2>Rg</h2><p class="numero">111</p></td>
+            <td class="transition-metals"><p class="masse">(285)</p><h2>Cn</h2><p class="numero">112</p></td>
+            <td class="other-metals"><p class="masse">(284)</p><h2>Uut</h2><p class="numero">113</p></td>
+            <td class="other-metals"><p class="masse">(289)</p><h2>Fl</h2><p class="numero">114</p></td>
+            <td class="other-metals"><p class="masse">(288)</p><h2>Uup</h2><p class="numero">115</p></td>
+            <td class="other-metals"><p class="masse">(291)</p><h2>Lv</h2><p class="numero">116</p></td>
+            <td class="halogens"><p class="masse">(210)</p><h2>Uus</h2><p class="numero">117</p></td>
+            <td class="noble-gases"><p class="masse">(294)</p><h2>Uuo</h2><p class="numero">118</p></td>
+        </tr>
+        <br>
+        <tr>
+            <td></td>
+        </tr>
+        <tr class="tr-espace">
+            <td colspan="3"></td>
+            <td class="autre"><p class="masse">138.91</p><h2>La</h2><p class="numero">57</p></td>
+            <td class="autre"><p class="masse">140.12</p><h2>Ce</h2><p class="numero">58</p></td>
+            <td class="autre"><p class="masse">140.91</p><h2>Pr</h2><p class="numero">59</p></td>
+            <td class="autre"><p class="masse">144.24</p><h2>Nd</h2><p class="numero">60</p></td>
+            <td class="autre"><p class="masse">(145)</p><h2>Pm</h2><p class="numero">61</p></td>
+            <td class="autre"><p class="masse">150.36</p><h2>Sm</h2><p class="numero">62</p></td>
+            <td class="autre"><p class="masse">151.96</p><h2>Eu</h2><p class="numero">63</p></td>
+            <td class="autre"><p class="masse">157.25</p><h2>Gd</h2><p class="numero">64</p></td>
+            <td class="autre"><p class="masse">158.93</p><h2>Tb</h2><p class="numero">65</p></td>
+            <td class="autre"><p class="masse">162.5</p><h2>Dy</h2><p class="numero">66</p></td>
+            <td class="autre"><p class="masse">164.93</p><h2>Ho</h2><p class="numero">67</p></td>
+            <td class="autre"><p class="masse">167.26</p><h2>Er</h2><p class="numero">68</p></td>
+            <td class="autre"><p class="masse">168.93</p><h2>Tm</h2><p class="numero">69</p></td>
+            <td class="autre"><p class="masse">173.04</p><h2>Yb</h2><p class="numero">70</p></td>
+            <td class="autre"><p class="masse">174.97</p><h2>Lu</h2><p class="numero">71</p></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td class="autre1"><p class="masse">227</p><h2>Ac</h2><p class="numero">89</p></td>
+            <td class="autre1"><p class="masse">232.04</p><h2>Th</h2><p class="numero">90</p></td>
+            <td class="autre1"><p class="masse">231.04</p><h2>Pa</h2><p class="numero">91</p></td>
+            <td class="autre1"><p class="masse">238.03</p><h2>U</h2><p class="numero">92</p></td>
+            <td class="autre1"><p class="masse">(237)</p><h2>Np</h2><p class="numero">93</p></td>
+            <td class="autre1"><p class="masse">(244)</p><h2>Pu</h2><p class="numero">94</p></td>
+            <td class="autre1"><p class="masse">(243)</p><h2>Am</h2><p class="numero">95</p></td>
+            <td class="autre1"><p class="masse">(247)</p><h2>Cm</h2><p class="numero">96</p></td>
+            <td class="autre1"><p class="masse">(247)</p><h2>Bk</h2><p class="numero">97</p></td>
+            <td class="autre1"><p class="masse">(251)</p><h2>Cf</h2><p class="numero">98</p></td>
+            <td class="autre1"><p class="masse">(252)</p><h2>Es</h2><p class="numero">99</p></td>
+            <td class="autre1"><p class="masse">(257)</p><h2>Fm</h2><p class="numero">100</p></td>
+            <td class="autre1"><p class="masse">(258)</p><h2>Md</h2><p class="numero">101</p></td>
+            <td class="autre1"><p class="masse">(259)</p><h2>No</h2><p class="numero">102</p></td>
+            <td class="autre1"><p class="masse">(262)</p><h2>Lr</h2><p class="numero">103</p></td>
+        </tr>
+    </table>
+</body>
+</html>
