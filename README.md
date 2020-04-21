@@ -29,6 +29,6 @@ Object-Oriented PHP
 
 Javascript / Ajax
 
-## Rush00 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/rush00/rush0.pdf) [100 /100]
+## Rush00 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/Rush00/rush0.pdf) [100 /100]
 
 48 hours to build an e-commerce website
