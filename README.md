@@ -1,5 +1,7 @@
 # Piscine-PHP
-Learn PHP // MySQL in 2 intensive weeks ! Some Javascript and Ajax too
+Learn PHP // MySQL in 2 intensive weeks ! Some Javascript and Ajax too.
+
+48 hours to do a "day" with lots of exercices and every 24 hours a new "Day" to do and so on during 2 weeks straight.
 
 ## day00 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/day00/j00.pdf) [100/100]
 
@@ -11,7 +13,7 @@ Php basic functions
 
 ## day03 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/day03/j03.pdf) [100 /100]
 
-Pamp / Mamp installation and use
+Pamp / Mamp installation and use / login system
 
 ## day04 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/day04/j04.pdf) [60 /100]
 
@@ -31,4 +33,4 @@ Javascript / Ajax
 
 ## Rush00 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/Rush00/rush0.pdf) [100 /100]
 
-48 hours to build an e-commerce website
+48 hours to build an e-commerce website (after day05)
