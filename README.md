@@ -1,7 +1,7 @@
 # Piscine-PHP
 Learn PHP // MySQL in 2 intensive weeks ! Some Javascript and Ajax too.
 
-48 hours to do a "day" with lots of exercices and every 24 hours a new "Day" to do and so on during 2 weeks straight.
+48 hours to do a "day" with lots of exercices and every 24 hours a new "day" to do is added and so on during 2 weeks straight.
 
 ## day00 [[subject]](https://github.com/aureleguitard/Piscine-PHP/blob/master/day00/j00.pdf) [100/100]
 
